@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACF,MAAM,EAAE,IAAI;EACZ,kBAAkB;EAClB,gBAAgB,EAAE,wBAAwB;EAC1C,yBAAyB,EAAE,IAAI;EAC/B,0BAA0B,EAAE,IAAI;CACjC;;AACD,AAAA,WAAW,CAAA;EACT,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;CACV;;AACD,AAAA,KAAK,CAAA;EACH,KAAK,EAAE,IAAI;CAEZ",
+    "sources": [
+        "ionic-page.page.scss"
+    ],
+    "names": [],
+    "file": "ionic-page.page.css"
+}

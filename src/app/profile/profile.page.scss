@@ -1,0 +1,109 @@
+.img1{
+  border-radius: 39px;
+  /* padding: 1px; */
+  border: 4px solid #ffffff;
+  box-shadow:0px 1px 6px 1px #1b4afc78;
+}
+.btn{
+  border-radius: 22px;
+}
+main.inner-scroll.scroll-y {
+  background-color: white;
+}
+
+.btn-color{
+  font-size: small;
+  text-transform: none;
+  font-weight: 200;
+}
+.fasii1{
+  font-size: 17px;
+  background-color: rgb(16, 170, 42);
+  padding: 10px;
+  border-radius: 22px;
+}
+.fasii2{
+  font-size: 17px;
+  background-color:#e36fdab8;
+  padding: 10px;
+  border-radius: 22px;
+  color: white;
+}
+.fasii3{
+  font-size: 17px;
+  background-color: #9151b2bf;
+  padding: 10px;
+  border-radius: 22px;
+color: purple;
+}
+.divv .fas{
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 22px;
+text-align: center;
+color: rgb(243, 242, 242);
+}
+.icon1{
+  background-color: #c2e401bf;
+}
+.icon2{
+  background-color: #08e401bf;
+}
+.icon3{
+  background-color:#e83ad9bf;
+}
+.icon4{
+  background-color:#8e22c3d4;
+}
+.icon5{
+  background-color:#e89d3abf;
+transform: rotate(-45deg);
+}
+.icon6{
+  background-color:#3a86f7ce;
+}
+
+.divv{
+  display: flex;align-items: center;margin-left: 17px;
+}
+.badge{
+  position: absolute;
+  right: 20px;
+  border-radius: 19px;
+  padding: 4px 7px;
+  font-size: 10px;
+}
+.badge1{
+background-color: bisque;
+color: #ffc580;
+}
+.badge2{
+  background-color: #7ee6f0f2;
+  color: #43cccc;
+}
+button.button-native {
+  color: #121210;
+  background-color: white !important;}
+.card{
+  width: 95%; background-color: white;
+  box-shadow: -2px 8px 12px 3px #cdcdfc82;
+font-family: 'Noto Sans JP', sans-serif;
+}
+.title{
+  color:  #2b2626c9;;
+  font-weight: 500;
+  font-size: medium;
+
+}
+.sub-title{
+  font-size: small;
+  font-weight: 100;
+}
+ion-button{
+  button.native-button{
+    background-color: black;
+  }
+}
+a{
+color: rgba(0, 0, 0, 0.562);
+}
