@@ -1,45 +1,50 @@
-*{
+* {
   font-family: 'Poppins', sans-serif;
-
 }
-.div-1{
+
+.div-1 {
   font-weight: 700;
   height: 32vh;
-  background-color: rgba(40, 40, 239,0.84);
+  background-color: rgba(40, 40, 239, 0.84);
   border-bottom-left-radius: 46px;
   border-bottom-right-radius: 46px;
-
 }
-.label-2{
 
+.label-2 {
   font-family: 'Raleway', sans-serif;
   font-size: larger;
-
 }
-.img-1{
+
+.img-1 {
   border-radius: 44px;
   border: 3px solid #ffffff;
-  box-shadow:0px 1px 6px 1px #1b4afc78;
+  -webkit-box-shadow: 0px 1px 6px 1px #1b4afc78;
+          box-shadow: 0px 1px 6px 1px #1b4afc78;
   height: 85px;
-  width:85px!important;
+  width: 85px !important;
   max-width: 85px;
-  box-shadow: 0px 1px 5px 3px #3232a0;
+  -webkit-box-shadow: 0px 1px 5px 3px #3232a0;
+          box-shadow: 0px 1px 5px 3px #3232a0;
 }
-#col-1{
+
+#col-1 {
   height: 100px;
 }
-.s-btn{
+
+.s-btn {
   --color-activated: white;
   --background-activated: #2826a3bf;
   --border-radius: 20px;
   --background:white;
   --color:rgba(0, 0, 255, 0.753);
-font-size: 10px;
+  font-size: 10px;
 }
-.ion-padding-col{
+
+.ion-padding-col {
   padding-top: 10px;
 }
-.btn-1{
+
+.btn-1 {
   --box-shadow: 0px 1px 15px 1px #06070826;
   font-weight: 700;
   font-size: 8.5px;
@@ -47,40 +52,46 @@ font-size: 10px;
   --color: rgb(0, 0, 0);
   --border-radius:29px;
 }
-#row-3 ion-col{
+
+#row-3 ion-col {
   padding-left: 0;
   padding-right: 0;
 }
-#img{
-  box-shadow: -3px 1px 7px 3px #3c3c3c21;
 
+#img {
+  -webkit-box-shadow: -3px 1px 7px 3px #3c3c3c21;
+          box-shadow: -3px 1px 7px 3px #3c3c3c21;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-background-image: url(/src/assets/images/chem2.png);
+  background-image: url(/src/assets/images/chem2.png);
   height: 126px;
 }
-.column1{
+
+.column1 {
   padding: 0;
 }
-.ion-i{
-  box-shadow: 3px 1px 7px 3px #3c3c3c21;
+
+.ion-i {
+  -webkit-box-shadow: 3px 1px 7px 3px #3c3c3c21;
+          box-shadow: 3px 1px 7px 3px #3c3c3c21;
   line-height: 1.5;
   height: 126px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-padding: 8px;
-
+  padding: 8px;
 }
-.subtitle1{
-  font-size: 11px;
 
-  }
-  .title1{
-    font-size:small;
-    font-weight: bold;
-    --color:rgba(0, 0, 0, 0.808);
-    padding-bottom:5px ;
-  }
+.subtitle1 {
+  font-size: 11px;
+}
+
+.title1 {
+  font-size: small;
+  font-weight: bold;
+  --color:rgba(0, 0, 0, 0.808);
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=ionic-three.page.css.map */
