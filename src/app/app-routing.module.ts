@@ -27,6 +27,14 @@ const routes: Routes = [
     path: 'ionic-page',
     loadChildren: () => import('./ionic-page/ionic-page.module').then( m => m.IonicPagePageModule)
   },
+  {
+    path: 'ionic-two',
+    loadChildren: () => import('./ionic-two/ionic-two.module').then( m => m.IonicTwoPageModule)
+  },
+  {
+    path: 'ionic-three',
+    loadChildren: () => import('./ionic-three/ionic-three.module').then( m => m.IonicThreePageModule)
+  },
 ];
 
 @NgModule({
