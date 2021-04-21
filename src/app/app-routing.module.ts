@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'ionic-three',
     loadChildren: () => import('./ionic-three/ionic-three.module').then( m => m.IonicThreePageModule)
   },
+  {
+    path: 'ionic-four',
+    loadChildren: () => import('./ionic-four/ionic-four.module').then( m => m.IonicFourPageModule)
+  },
 ];
 
 @NgModule({
