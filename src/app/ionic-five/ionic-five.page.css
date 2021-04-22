@@ -89,7 +89,6 @@
   border-bottom-left-radius: 22px;
   width: 315px;
   background: white;
-  height: 60px;
   margin: 0px 10px;
 }
 
@@ -149,4 +148,13 @@
 a {
   font-size: 37px;
 }
-/*# sourceMappingURL=ionic-four.page.css.map */
+
+ion-card-header ion-card-subtitle {
+  font-size: 11px;
+}
+
+ion-card-header {
+  line-height: 1;
+  padding-top: 0;
+}
+/*# sourceMappingURL=ionic-five.page.css.map */
