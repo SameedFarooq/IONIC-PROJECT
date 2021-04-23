@@ -82,7 +82,7 @@
   width: 315px;
 }
 
-.ss {
+.div-ss {
   -webkit-box-shadow: 0px 3px 6px 5px #a6b4bb36;
           box-shadow: 0px 3px 6px 5px #a6b4bb36;
   border-bottom-right-radius: 22px;
@@ -98,7 +98,7 @@
   height: 30px;
 }
 
-.ssa {
+.div-ssa {
   border: white;
 }
 

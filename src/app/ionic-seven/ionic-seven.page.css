@@ -9,7 +9,7 @@
   -webkit-box-shadow: 0px 2px 5px 3px #5de2dc94;
           box-shadow: 0px 2px 5px 3px #5de2dc94;
   background: white;
-  padding-top: 20px;
+  padding-top: 19px;
 }
 
 .icon2 {
@@ -106,30 +106,11 @@ ion-title {
 #img {
   -webkit-box-shadow: -3px 1px 7px 3px #3c3c3c21;
           box-shadow: -3px 1px 7px 3px #3c3c3c21;
-  margin: 0;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   height: 95px;
-}
-
-.img1 {
-  --background: url(../../assets/images/chemistry.jpg);
-  background-size: cover;
-  background-position-x: -11px;
-}
-
-.img2 {
-  --background: url(../../assets/images/new.jpg);
-  background-size: cover;
-  background-position-x: -48px;
-}
-
-.img3 {
-  --background: url(../../assets/images/people3.png);
-  background-size: cover;
-  background-position-x: -33px;
 }
 
 .column1 {
@@ -181,4 +162,104 @@ ion-title {
 .starr {
   padding: 0;
 }
-/*# sourceMappingURL=ionic-six.page.css.map */
+
+.card-t {
+  font-weight: bold;
+}
+
+.card-1-t2 {
+  padding: 25px;
+  --color:rgba(0, 0, 0, 0.856);
+  text-align: center;
+  font-size: large;
+}
+
+ion-card.card-1 {
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  --background:url(../../assets/images/chemistry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px -3px 6px 5px #a6b4bb36;
+          box-shadow: 0px -3px 6px 5px #a6b4bb36;
+  width: 315px;
+  height: 165px;
+}
+
+ion-card.card-2 {
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  --background:url(../../assets/images/new.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px -3px 6px 5px #a6b4bb36;
+          box-shadow: 0px -3px 6px 5px #a6b4bb36;
+  width: 315px;
+  height: 165px;
+}
+
+.ion3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 19px;
+}
+
+.div-ss {
+  -webkit-box-shadow: 0px 3px 6px 5px #a6b4bb36;
+          box-shadow: 0px 3px 6px 5px #a6b4bb36;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  width: 315px;
+  background: white;
+  height: 81px;
+  margin: 0px 10px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.div-ssa {
+  border: white;
+}
+
+.subtitle2 {
+  font-size: xx-small;
+  --color:#cece39d0;
+  font-weight: bold;
+}
+
+.title2 {
+  font-size: 12px;
+  --color: rgba(0, 0, 0, 0.815);
+  font-weight: bold;
+}
+
+.title3 {
+  font-size: 20px;
+  --color:black;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 12px;
+}
+
+.div-ss ion-row ion-col {
+  padding: 0px 5px;
+}
+/*# sourceMappingURL=ionic-seven.page.css.map */

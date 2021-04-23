@@ -59,14 +59,46 @@
   padding-right: 0;
 }
 
-#img {
+#img1 {
   -webkit-box-shadow: -3px 1px 7px 3px #3c3c3c21;
           box-shadow: -3px 1px 7px 3px #3c3c3c21;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  --background: url(../../assets/images/chemistry.jpg);
   height: 117px;
+  background-size: cover;
+  background-position-x: -36px;
+  margin: 0;
+}
+
+#img2 {
+  margin: 0;
+  -webkit-box-shadow: -3px 1px 7px 3px #3c3c3c21;
+          box-shadow: -3px 1px 7px 3px #3c3c3c21;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  --background: url(../../assets/images/new.jpg);
+  height: 117px;
+  background-size: cover;
+  background-position-x: -85px;
+}
+
+#img3 {
+  margin: 0;
+  -webkit-box-shadow: -3px 1px 7px 3px #3c3c3c21;
+          box-shadow: -3px 1px 7px 3px #3c3c3c21;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  --background: url(../../assets/images/people3.png);
+  height: 117px;
+  background-size: cover;
+  background-position-x: -59px;
 }
 
 .column1 {

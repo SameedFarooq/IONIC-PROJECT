@@ -47,6 +47,18 @@ const routes: Routes = [
     path: 'ionic-six',
     loadChildren: () => import('./ionic-six/ionic-six.module').then( m => m.IonicSixPageModule)
   },
+  {
+    path: 'ionic-seven',
+    loadChildren: () => import('./ionic-seven/ionic-seven.module').then( m => m.IonicSevenPageModule)
+  },
+  {
+    path: 'ionic-eight',
+    loadChildren: () => import('./ionic-eight/ionic-eight.module').then( m => m.IonicEightPageModule)
+  },
+  {
+    path: 'profile-two',
+    loadChildren: () => import('./profile-two/profile-two.module').then( m => m.ProfileTwoPageModule)
+  },
 ];
 
 @NgModule({
