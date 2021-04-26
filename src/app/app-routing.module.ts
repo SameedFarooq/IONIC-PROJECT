@@ -59,6 +59,10 @@ const routes: Routes = [
     path: 'profile-two',
     loadChildren: () => import('./profile-two/profile-two.module').then( m => m.ProfileTwoPageModule)
   },
+  {
+    path: 'ionic-nine',
+    loadChildren: () => import('./ionic-nine/ionic-nine.module').then( m => m.IonicNinePageModule)
+  },
 ];
 
 @NgModule({

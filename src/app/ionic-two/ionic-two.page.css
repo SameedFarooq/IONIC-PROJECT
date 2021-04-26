@@ -54,6 +54,7 @@
   --background:white;
   --color: rgb(0, 0, 0);
   --border-radius:29px;
+  text-transform: initial;
 }
 
 #row-3 ion-col {

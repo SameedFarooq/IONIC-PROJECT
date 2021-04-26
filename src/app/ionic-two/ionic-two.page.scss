@@ -46,24 +46,17 @@ font-size: 10px;
 }
 .btn-1{
   --box-shadow: 0px 1px 15px 1px #06070826;
-  // --box-shadow: 0px 1px 3px 1px #0607083d;;
-  font-weight: 700;
+   font-weight: 700;
   font-size: 10px;
   --background:white;
   --color: rgb(0, 0, 0);
   --border-radius:29px;
-  // --color-activated: white;
-  // --background-activated: #4643f1bf;
-
+  text-transform: initial;
 }
 #row-3 ion-col{
   padding-left: 0;
   padding-right: 0;
 }
-// .btn-1:focus{
-  //   --background:rgb(179, 27, 27);
-  //   --color: rgb(255, 255, 255);
-  // }
 .subtitle-2{
   font-weight: 200;
   font-size: 12px;
