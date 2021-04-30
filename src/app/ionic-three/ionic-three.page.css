@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
+  letter-spacing: 0px;
 }
 
 .div-1 {
@@ -81,8 +82,8 @@
   border-bottom-right-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  --background: url(../../assets/images/new.jpg);
   height: 117px;
+  --background: url(../../assets/images/new.jpg);
   background-size: cover;
   background-position-x: -85px;
 }
@@ -95,8 +96,8 @@
   border-bottom-right-radius: 0px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  --background: url(../../assets/images/people3.png);
   height: 117px;
+  --background: url(../../assets/images/people3.png);
   background-size: cover;
   background-position-x: -59px;
 }

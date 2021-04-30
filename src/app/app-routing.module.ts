@@ -63,6 +63,22 @@ const routes: Routes = [
     path: 'ionic-nine',
     loadChildren: () => import('./ionic-nine/ionic-nine.module').then( m => m.IonicNinePageModule)
   },
+  {
+    path: 'ionic-ten',
+    loadChildren: () => import('./ionic-ten/ionic-ten.module').then( m => m.IonicTenPageModule)
+  },
+  {
+    path: 'ionic-eleven',
+    loadChildren: () => import('./ionic-eleven/ionic-eleven.module').then( m => m.IonicElevenPageModule)
+  },
+  {
+    path: 'ionic-twelve',
+    loadChildren: () => import('./ionic-twelve/ionic-twelve.module').then( m => m.IonicTwelvePageModule)
+  },
+  {
+    path: 'ionic-thirteen',
+    loadChildren: () => import('./ionic-thirteen/ionic-thirteen.module').then( m => m.IonicThirteenPageModule)
+  },
 ];
 
 @NgModule({
